@@ -1,2 +1,2 @@
 Главная страница приложения "Капсулы времени". Дизайн разрабатывыался на конкурс ArtMasters 2022
-[Хостинг сайта}]:https://time-capsule-rtu.web.app/
+[Хостинг сайта]https://time-capsule-rtu.web.app/
