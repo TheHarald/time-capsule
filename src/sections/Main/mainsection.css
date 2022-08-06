@@ -1,0 +1,105 @@
+.main-section{
+    /* background: linear-gradient(250deg, #4219B8 1%, #6B42DE 57%); */
+    padding: 120px 50px 200px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+    position: relative;
+    max-width: 1400px;
+    gap: 40px;
+    
+}
+
+.main-section-container{
+    background: linear-gradient(250deg, #4219B8 1%, #6B42DE 57%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.blob{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.blob2{
+    position: absolute;
+    width: 1200px;
+    height: 1600px;
+    left: 700px;
+    top: -680px;
+
+    background: linear-gradient(180deg, #109DDB 0%, rgba(50, 253, 205, 0.44) 100%);
+    border-radius: 556.5px;
+    transform: rotate(25.9deg);
+}
+
+.main-photos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-text{
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C9C9C9;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    z-index: 2;
+    
+}
+
+.main-selection{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   z-index: 10;
+}
+
+.main-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.main-capsule-carusel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.send-button{
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    border: 4px solid #32FDCD;
+    border-radius: 100px;
+    padding: 16px 40px;
+    background-color: transparent;
+    cursor: pointer;
+
+    background: linear-gradient(132.62deg, rgba(50, 253, 205, 0.4) 5.29%, rgba(85, 88, 255, 0.4) 77.83%),
+    linear-gradient(109.12deg, rgba(255, 255, 255, 0.4) 14.34%, rgba(217, 217, 217, 0.1) 97.12%);
+    backdrop-filter: blur(40px);
+}
+
+.send-button:hover{
+    filter: drop-shadow(0px 0px 10px #32FDCD);
+    transition: 1s;
+}

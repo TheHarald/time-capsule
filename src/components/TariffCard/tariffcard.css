@@ -1,0 +1,79 @@
+.option-container{
+    box-sizing: border-box;
+    padding: 8px 20px;
+    border: 4px solid #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+.option-title{
+    font-size: 18px;
+    font-weight: 400;   
+    color: #fff;
+}
+
+
+.tariff-card-title{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+
+}
+
+.card-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+
+.name{
+    color: #32FDCD;
+}
+
+.card-options{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap ;
+    
+}
+.tariff-price{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+}
+
+.price{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.old{
+    font-size: 28px;
+    text-decoration-line: line-through;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.more-button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    border: 4px solid #32FDCD;
+    border-radius: 100px;
+    padding: 8px 20px;
+    background-color: transparent;
+
+}

@@ -1,0 +1,35 @@
+.capsule{
+    width: 600px;
+    height: 360px;
+    background: linear-gradient(180deg, rgba(104, 152, 141, 0) 0%, #32FDCD 100%), radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, 0) 72.4%, rgba(217, 217, 217, 0.36) 100%);
+    border-radius: 448px;
+    position: absolute;
+    z-index: 100;
+    transition: 1s;
+    animation: appearance 1s;
+}
+
+@keyframes appearance {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.capsule-items{
+    width: 600px;
+    height: 360px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.invert{
+    filter: invert();
+    transition: 1s;
+}

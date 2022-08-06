@@ -1,0 +1,42 @@
+.folder{
+   animation: move1 5s linear infinite;
+   filter: drop-shadow(0px 0px 20px rgba(216, 171, 86, 0.9));
+   padding: 10px;
+
+}
+
+.smile{
+    filter: drop-shadow(0px 0px 20px #FEC816);
+    animation: move2 6s linear infinite;
+   padding: 10px;
+}
+.list{
+    filter: drop-shadow(0px 0px 20px #D6D6D6);
+    animation: move1 7s linear infinite;
+    padding: 10px;
+}
+
+.heart{
+    animation: move1 5s linear infinite;
+    filter: drop-shadow(0px 0px 100px #FB502E);
+   padding: 10px;
+}
+
+.news{
+    animation: move1 5s linear infinite;
+    filter: drop-shadow(0px 0px 100px #FB502E);
+   padding: 10px;
+}
+
+@keyframes move1 {
+    0% {transform:translate(0px,0px) ; }
+    30% { transform: translate(-10px,15px); }
+    60% { transform: translate(15px,10px); }
+    100% {transform: translate(0px,0px); }
+} 
+@keyframes move2 {
+    0% {transform:translate(0px,0px) ; }
+    30% { transform: translate(-20px,30px); }
+    60% { transform: translate(20px,-10px); }
+    100% {transform: translate(0px,0px); }
+} 

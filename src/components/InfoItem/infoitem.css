@@ -1,0 +1,30 @@
+.info-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:center;
+}
+.info-title{
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    max-width: 500px;
+    text-align: center;
+
+}
+.info-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #C9C9C9;
+    max-width: 400px;
+}
+.image-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
