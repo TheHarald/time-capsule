@@ -27,29 +27,31 @@ export const Header = () => {
 
   return (
     <nav className={navClassName}>
-      <Link className="link" to={'/'}>
-        <div className="main-link">
-          <Capsule />
-          <span className="link">Главная</span>
-        </div>
-      </Link>
+      <div className="nav-container">
+        <Link className="link" to={'/'}>
+          <div className="main-link">
+            <Capsule />
+            <span className="link">Главная</span>
+          </div>
+        </Link>
 
-      <div className="secondary-options">
-        <Link className="link" to={'/history'}>
-          История
-        </Link>
-        <Link className="link" to={'/history'}>
-          Виды посланий
-        </Link>
-        <Link className="link" to={'/capsules'}>
-          Капсулы времени
-        </Link>
-        <Link className="link" to={'/history'}>
-          Отзывы
-        </Link>
-        <Link className="link" to={'/profile'}>
-          <Profile />
-        </Link>
+        <div className="secondary-options">
+          <Link className="link" to={'/history'}>
+            История
+          </Link>
+          <Link className="link" to={'/history'}>
+            Виды посланий
+          </Link>
+          <Link className="link" to={'/capsules'}>
+            Капсулы времени
+          </Link>
+          <Link className="link" to={'/history'}>
+            Отзывы
+          </Link>
+          <Link className="link" to={'/profile'}>
+            <Profile />
+          </Link>
+        </div>
       </div>
     </nav>
   )
